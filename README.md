@@ -1,6 +1,6 @@
 # Worst Case Matters for Few-Shot Recognition
 
-This repository is the official implementation of [Worst Case Matters for Few-Shot Recognition](https://arxiv.org/abs/2203.06574).
+This repository is the official implementation of [Worst Case Matters for Few-Shot Recognition](https://arxiv.org/abs/2203.06574), which is accepted by ECCV2022. 
 
 This paper boost the worst-case performance in few-shot learning by reducing the standard deviation and increasing the average accuracy simultaneously from the perspective of bias-variance trade-off. To achieving so, a simple yet effective stability regularization (SR) loss together with model ensemble to reduce variance during fine-tuning, and an adaptability calibration (AC) mechanism to reduce the bias are proposed.
 
@@ -91,7 +91,7 @@ If you find our code useful, please consider citing our work using the bibtex:
 @article{fu2022ACSR,
   title={Worst Case Matters for Few-Shot Recognition},
   author={Fu, Minghao and Cao, Yun-Hao and Wu, Jianxin},
-  journal={arXiv preprint arXiv:2203.06574},
+  journal={The European Conference on Computer Vision},
   year={2022}
 }
 ```
